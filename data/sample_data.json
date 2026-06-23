@@ -1,0 +1,57 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 16",
+            "category": "phone",
+            "price": 79999
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S25",
+            "category": "phone",
+            "price": 74999
+        },
+        {
+            "id": 3,
+            "name": "MacBook Air M4",
+            "category": "laptop",
+            "price": 114999
+        },
+        {
+            "id": 4,
+            "name": "Dell XPS 13",
+            "category": "laptop",
+            "price": 99999
+        },
+        {
+            "id": 5,
+            "name": "Sony WH-1000XM6",
+            "category": "headphones",
+            "price": 29999
+        },
+        {
+            "id": 6,
+            "name": "Apple Watch Series 11",
+            "category": "smartwatch",
+            "price": 45999
+        }
+    ],
+
+    "orders": [
+        {
+            "order_id": 101,
+            "user_id": 1001,
+            "product_name": "iPhone 16",
+            "status": "Shipped",
+            "delivery_date": "2026-06-25"
+        },
+        {
+            "order_id": 102,
+            "user_id": 1002,
+            "product_name": "Dell XPS 13",
+            "status": "Processing",
+            "delivery_date": "2026-06-28"
+        }
+    ]
+}
